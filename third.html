@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+            column-gap: 20px;
+        }
+        .pricing-table > div {
+            border: 1px solid #ccc;
+            height: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 5px;
+        }
+        .pricing-table h2 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .pricing-table h3 {
+            font-size: 1.4em;
+            font-weight: normal;
+        }
+
+        .pricing-table a {
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 50px;
+            background-color: #ff9933;
+            color: #fff;
+            margin-top: auto;
+        }
+        .pricing-table a:hover {
+            background-color: #db8229;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="pricing-table">
+            <div>
+                <h3>Basic Plan</h3>
+                <h2>$9.99/mo</h2>
+                <p>10GB Storage</p>
+                <p>50GB Bandwidth</p>
+                <p>1 Domain</p>
+
+                <a href="">Choose plan</a>
+            </div>
+
+            <div>
+                <h3>Standard Plan</h3>
+                <h2>$19.99/mo</h2>
+                <p>10GB Storage</p>
+                <p>200GB Bandwidth</p>
+                <p>5 Domain</p>
+
+                <a href="">Choose plan</a>
+            </div>
+
+            <div>
+                <h3>Premium Plan</h3>
+                <h2>$29.99/mo</h2>
+                <p>100GB Storage</p>
+                <p>Unlimited Bandwidth</p>
+                <p>Unlimited Domain</p>
+
+                <a href="">Choose plan</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
